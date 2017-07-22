@@ -1,0 +1,14 @@
+to metasquare
+  repeat 4 [  
+    fd 100
+    lt 15
+    repeat 3 [
+      fd 30
+      lt 118
+    ]
+    rt 99
+  ]  
+end
+
+clearscreen
+metasquare
