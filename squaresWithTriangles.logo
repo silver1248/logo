@@ -1,14 +1,14 @@
-to metasquare
+to metasquare :squaresize :trianglesize
   repeat 4 [  
-    fd 100
+    fd :squaresize
     lt 15
-    repeat 3 [
-      fd 30
+    repeat 3 
+    [
+      fd :trianglesize
       lt 118
     ]
     rt 99
   ]  
 end
-
 clearscreen
-metasquare
+metasquare 20 25
