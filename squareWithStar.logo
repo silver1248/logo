@@ -1,0 +1,17 @@
+to square :starsize
+  repeat 4
+  [
+  fd 100
+  lt 20
+  repeat 5
+  [
+    fd :starsize
+    lt 143 	
+  ]
+  rt 105
+  ]  
+end
+  clearscreen
+  square 20
+hideturtle
+  
