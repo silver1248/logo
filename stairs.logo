@@ -1,0 +1,15 @@
+to thingy :size
+  if :size < 1 [ stop ]
+  fd :size
+  rt 90
+  fd :size
+  lt 90
+  thingy :size * 0.5
+  rt 180
+  fd :size
+  rt 90
+  fd :size
+  rt 90
+end
+window clearscreen pu bk 200 pd
+thingy 128
