@@ -21,5 +21,8 @@ to finish :size1 :size2
     lt 90
   ]
 end
-window clearscreen pu bk 100 pd
-finish 200 64
+to stuff :size1 :size2
+  window clearscreen pu bk :size1/2 pd
+  finish :size1 :size2
+end
+stuff 200 64
